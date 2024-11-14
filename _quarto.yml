@@ -7,7 +7,8 @@ website:
   title: "DLPapp-ERW.github.io"
   navbar:
     left:
-      - href: app_ODLP.qmd: 
+      - href: index.qmd 
+        text: Dados do leitor de placas 
       - icon: github # add icons that link to social media, etc.
         href: https://github.com/endriowebers
 
