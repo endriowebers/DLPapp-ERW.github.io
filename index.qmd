@@ -3,10 +3,10 @@ format:
   html:
     grid: 
       body-width: 1400px
-    resources: 
-      - shinylive-sw.js
-filters:
-  - shinylive
+#     resources: 
+#       - shinylive-sw.js
+# filters:
+#   - shinylive
 ---
 
 ## Organizador dos Dados do Leitor de Placas {.center}
@@ -205,3 +205,22 @@ shinyApp(ui = ui, server = server)
 
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+---
+ 
+### "Copyright 2024, Endrio Webers" {.center}
+
+---

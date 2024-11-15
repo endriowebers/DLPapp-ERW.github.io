@@ -4,12 +4,12 @@ project:
   - shinylive-sw.js
 
 website:
-  title: "DLPapp-ERW.github.io"
   navbar:
-    left:
-      - href: index.qmd 
-        text: Dados do leitor de placas 
-      - icon: github # add icons that link to social media, etc.
+    title: "DLPapp"
+    right:
+      - text: "Endrio Webers"
+        href: https://endriowebers.github.io/
+      - icon: github
         href: https://github.com/endriowebers
 
 format:
