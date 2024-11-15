@@ -10,6 +10,7 @@ filters:
 ---
 
 ## Organizador dos Dados do Leitor de Placas {.center}
+
 #### Loccus LMR-96 {.center}
 
 1 - Selecione o arquivo que deseja
