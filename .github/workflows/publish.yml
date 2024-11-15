@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [main, master]
+    branches: [gh-pages]  # Altere para gh-pages se configurar o branch de deploy para gh-pages
   release:
     types: [published]
   workflow_dispatch: {}
@@ -45,7 +45,7 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2  # Mantido em v2
+        uses: actions/upload-pages-artifact@v2
         with: 
           retention-days: 1
 
